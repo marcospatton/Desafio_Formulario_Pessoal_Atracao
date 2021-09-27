@@ -1,6 +1,6 @@
 function gerarCidades(){
     var estado = this.document.getElementById("estado").value;
-   /* var selectedValue = document.getElementById("cidade").value;*/
+  
     var cidade = document.getElementById("cidade");
     
 

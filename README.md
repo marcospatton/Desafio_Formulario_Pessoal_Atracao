@@ -33,7 +33,7 @@ Os entregáveis descritos acima são requisitos básicos para apresentação no 
  <h1>Autor:</h1>
  <p>Marco Antonio da Silva Francisco </p>
  <b>Link da pagina</b>
- <a href="https://zealous-rosalind-737d07.netlify.app" https://zealous-rosalind-737d07.netlify.app</a>
+ <a href="https://zealous-rosalind-737d07.netlify.app"> https://zealous-rosalind-737d07.netlify.app</a>
 <b>Fontes de consultas:</b>
 
 
@@ -45,8 +45,6 @@ https://ajuda.locaweb.com.br/
 
 Diversas pesquisas  no google: 
 https://www.google.com/search?q=staticforms&oq=staticforms&aqs=chrome..69i57j0i10.6172j0j7&sourceid=chrome&ie=UTF-8
-
-
 
 EdiCursos:
  https://www.youtube.com/watch?v=E5wp5bHi-4s&t=310s

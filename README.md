@@ -32,14 +32,15 @@ Os entregáveis descritos acima são requisitos básicos para apresentação no 
 
  <h1>Autor:</h1>
  <p>Marco Antonio da Silva Francisco </p>
+ 
  <b>Link da pagina</b>
+ 
  <a href="https://zealous-rosalind-737d07.netlify.app"> https://zealous-rosalind-737d07.netlify.app</a>
 <b>Fontes de consultas:</b>
 
 
-site de envio de formulario:
-https://www.staticforms.xyz/
-
+ 
+ 
 consultas sobre codigos fontes:
 https://ajuda.locaweb.com.br/
 

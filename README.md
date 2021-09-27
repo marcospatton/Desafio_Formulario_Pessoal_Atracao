@@ -35,7 +35,7 @@ Os entregáveis descritos acima são requisitos básicos para apresentação no 
  
  <b>Link da pagina</b>
  
- <a href="https://zealous-rosalind-737d07.netlify.app"> https://zealous-rosalind-737d07.netlify.app</a>
+ <a href="https://zealous-rosalind-737d07.netlify.app"> https://zealous-rosalind-737d07.netlify.app</a><br><br><br>
 <b>Fontes de consultas:</b>
 
 

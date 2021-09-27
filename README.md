@@ -38,7 +38,13 @@ Os entregáveis descritos acima são requisitos básicos para apresentação no 
  <a href="https://zealous-rosalind-737d07.netlify.app"> https://zealous-rosalind-737d07.netlify.app</a><br><br><br>
 <b>Fontes de consultas:</b>
 
-
+<br>
+ <h3> <b>Ferramentas utilizadas</b> </h3>
+ <br>
+ VS Code;
+ HTML;
+ CSS;
+ Javascript.
  
  
 consultas sobre codigos fontes:

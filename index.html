@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scriptCidade.js"></script>
+    <script src="js/scriptCep.js"></script>
+    <script src="js/scriptCpf.js"></script>
+    <!--<script src="js/validaTel.js"></script>-->
+    <script src="js/form.js"></script>
+    
+    <title>Formulário Pessoal - Atração</title>
+</head>
+<body>
+    <section>
+    <div id="status"></div> Cadastrado com sucesso</div>
+</section>
+    <div class="box"">
+        <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
+            <input type="hidden" name="accessKey" value="2b22acde-f635-479c-b19a-ed3e9adfea20">
+           <!-- <input type="hidden" name="redirectTo" value="2b22acde-f635-479c-b19a-ed3e9adfea20">-->
+           <input type="hidden" name="redirectTo" value="index.html">
+            <div class="legenda">
+                
+            </div>
+            <legend><b>Cadastre-se</b></legend>
+            <fieldset>
+                
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="name" id="nome" class="inputUser"  placeholder="                              Digite seu nome completo" autocomplete="off" required>
+                    <label for="nome" class="labelInput">Nome completo:</label>                    
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="CPF" id="cpf" class="inputUser" placeholder="           Digite seu CPF" autocomplete="off"  maxlength="14" onkeyup="mascara_cpf()" required>
+                    <label for="cpf" class="labelInput">CPF:</label>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="rg" id="rg" class="inputUser" placeholder="Digite seu RG" autocomplete="off">
+                    <label for="rg" class="labelInput">RG:</label> 
+                </div><br>
+                
+
+                
+                <fieldset class="inputGenero">
+                    <p><b>Sexo:</b></p>
+                    <input type="radio" id="masulino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <br>
+                
+                    <input type="radio" id="feminino" name="genero" value="feminino">
+                    <label for="feminino">Feminino</label>
+                    <br>
+
+                    <input type="radio" id="outro" name="genero" value="outro">
+                    <label for="outro">Outros</label>
+                </fieldset>
+
+                    <br><br>
+
+                
+                
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser"placeholder="                  Digite seu Endereço" autocomplete="off" required>
+                    <label for="endereco" class="labelInput">Endereço:</label>
+                   <!---- <input type="text" name="numero" id="numero" class="inputUser">
+                    <label for="numero" class="labelInput">Número:</label> -->
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="numero" id="numero" class="inputUser"  placeholder="               Digite o número e complemento se houver" autocomplete="off" required>
+                    <label for="numero" class="labelInput">Número:</label>
+                </div>
+                <br><br>
+            
+                <div class="inputBox">
+                    <input type="text" name="bairro" id="bairro" class="inputUser" placeholder="Digite seu Bairro" autocomplete="off">
+                    <label for="bairro" class="labelInput">Bairro:</label>
+                </div>
+                <br>
+
+                <div class="inputBox">
+                    <p>Escolha o Estado</p>
+                    <select id="estado" onchange="gerarCidades();">
+                        
+                     <option></option>             
+                    <option>MG</option>                    
+                    <option>RJ</option>                    
+                    <option>SP</option>                    
+                    <option>DF</option>
+                </select>
+
+                </div>
+
+                <!--<div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser">
+                    <label for="cidade" class="labelInput">Cidade:</label>
+                </div>-->
+                
+                <p>Escolha o Estado</p>
+
+                <select id="cidade">
+
+                </select>
+
+
+                <!--<div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser">
+                    <label for="estado" class="labelInput">Estado:</label>                    
+                </div>-->
+                <br><br><br><br>
+
+
+
+                <div class="inputBox">
+                    <input type="text" name="cep" id="cep" class="inputUser" placeholder="Digite seu CEP" autocomplete="off" maxlength="9" onkeyup="mascara_cep()">
+                    <label for="cep" class="labelInput">Cep:</label>
+                </div>
+                <br><br>        
+             
+                
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="tel" class="inputUser" placeholder="Digite seu telefone" autocomplete="off" maxlength="13" onkeyup="mascara_telefone()">
+                    <label for="telefone" class="labelInput">Telefone:</label>
+
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="cel" name="celular" id="celular" class="inputUser" placeholder="              Digite seu numero de celular" autocomplete="off" maxlength="14" onkeyup="mascara_celular()" required>
+                    <label for="celular" class="labelInput">Celular:</label>
+                    
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit" />
+                
+
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

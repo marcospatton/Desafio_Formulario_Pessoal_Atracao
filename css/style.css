@@ -1,1 +1,137 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*degrade azul*/
+    background-image: linear-gradient(to right, rgb(20, 147, 220),     rgb(17, 54, 71));
+   
+}
+
+/*centralizar box e conteudo*/
+.box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+
+}
+
+/*cor de fundo*/
+.box{
+    background-color: rgba(0, 0, 0, 0.6);
+    /*borda*/
+    padding: 15px;
+    /*bordas arredondadas*/
+    border-radius: 15px;
+    width:50%;
+    color: white;
+}
+
+/*cor do fieldset*/
+fieldset{
+    border: 3px solid dodgerblue;
+    
+}
+
+.inputGenero{
+    border: px solid rgb(228, 233, 238);
+   
+}
+
+/*legenda */
+legend{
+    borde: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    
+}
+
+/*sexo*/
+.inputBox{
+    position:relative;
+}
+
+/*inputUser*/
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color:dodgerblue;
+    font-size: 15px;
+    width: 100%;
+
+}
+
+/*animação do texto*/
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -19px;
+    font-size: -12px;
+    color: white;
+}
+/*config botão submit*/
+#submit{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,110));
+}
+
+/*Envio do botão submit*/
+
+#status{
+    width:90%;
+    max-width:500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+#status.sucess{
+    background-color rgb(211, 250, 153);
+    animation: statu 4s ease forwards;
+}
+#status.error{
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: statu 4s ease forwards;
+}
+
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer:events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events:none;
+    }
+}

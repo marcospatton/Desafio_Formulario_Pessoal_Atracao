@@ -26,3 +26,21 @@ Orientaçãoes
 O desafio é individual
 Não usar frameworks de estilo como Bootstrap, Google Material e demais.
 Os entregáveis descritos acima são requisitos básicos para apresentação no dia da entrevista, ficando a critério do candidato, se quiser e estiver apto a melhorar o desafio de alguma forma, com os conhecimentos adquiridos durante a trilha de especialização.
+
+
+<b>Fontes de consultas:</b>
+
+
+site de envio de formulario:
+https://www.staticforms.xyz/
+
+consultas sobre codigos fontes:
+https://ajuda.locaweb.com.br/
+
+Diversas pesquisas  no google: 
+https://www.google.com/search?q=staticforms&oq=staticforms&aqs=chrome..69i57j0i10.6172j0j7&sourceid=chrome&ie=UTF-8
+
+
+
+EdiCursos:
+ https://www.youtube.com/watch?v=E5wp5bHi-4s&t=310s
